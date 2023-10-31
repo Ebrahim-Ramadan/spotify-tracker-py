@@ -20,10 +20,8 @@ params = {
 response = requests.get(search_url, params=params, headers=headers)
 
 if response.status_code == 200:
-    # Successfully retrieved search results
     search_results = response.json()
 
-    # Process the search results as needed
     if 'tracks' in search_results:
         for track in search_results['tracks']['items']:
             print(f"Track Name: {track['name']}")
