@@ -1,2 +1,2 @@
 # spotify-tracker-py
-python script to log+fetch songs/artists/saved tracks and more
+python script to login + fetch songs/artists/saved tracks and more
